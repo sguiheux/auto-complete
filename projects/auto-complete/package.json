@@ -1,6 +1,6 @@
 {
   "name": "@ngui/auto-complete",
-  "version": "3.0.0",
+  "version": "14.0.0",
   "description": "Angular Input Autocomplete",
   "license": "MIT",
   "repository": {
@@ -22,7 +22,7 @@
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/common": "^9.0.1",
-    "@angular/core": "^9.0.1"
+    "@angular/common": "14.3.0",
+    "@angular/core": "14.3.0"
   }
 }
