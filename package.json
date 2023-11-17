@@ -1,6 +1,6 @@
 {
-  "name": "auto-complete",
-  "version": "0.0.0",
+  "name": "@sgu/auto-complete",
+  "version": "14.0.0",
   "description": "Angular Input Autocomplete",
   "license": "MIT",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build-lib:watch": "ng build auto-complete --watch",
-    "build-lib:prod": "ng build auto-complete --prod && npm run copy-lib",
+    "build-lib:prod": "ng build auto-complete && npm run copy-lib",
     "copy-lib": "copyfiles -f LICENSE.md README.md dist/auto-complete"
   },
   "private": true,

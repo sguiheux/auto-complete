@@ -10,7 +10,7 @@
       "prefix": "ngui",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/auto-complete/tsconfig.lib.json",
             "project": "projects/auto-complete/ng-package.json"
@@ -163,5 +163,9 @@
           }
         }
       }
-    }}
+    }
+  },
+  "cli": {
+    "analytics": false
+  }
 }
